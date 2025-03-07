@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CPMK Form</title>
+    <style type="text/css">
+        table {
+            width: 25%;
+            margin: 0 auto;
+            padding: 10;
+            border-collapse: collapse;
+            background-color: #f0eded;
+            background: rgb(235, 230, 230);
+        }
+        th, td {
+            padding: 5px;
+            border: 0px solid #fffcfc;
+            line-height: 1;
+            width: 0%;
+        }
+        th {
+            text-align: left;
+        }
+        
+    </style>
+        <style>
+        @font-face {
+            font-family: 'genty';
+            src: url(GentyTTF.ttf);
+        }
+            h1 {
+  text-align: center;
+    font-family: 'genty';
+    color: #050505;
+    font-size: 45px;
+    line-height: 0.9;
+    text-align: center;
+    padding: 30px;
+    margin: -30px;
+}
+hr{
+    border: 2px solid #050505;
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+p {
+                line-height: 0; /* Mengatur jarak antar baris menjadi 0 kali ukuran font */
+            }
+            
+
+</style>
+<style>
+    body{
+        background-image : url(NJZZ.png); alt: "background";
+        background-size : cover;
+        background-attachment : fixed;
+        background-repeat : no-repeat;
+        background-position : center;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Form Pendaftaran Bunnies Club</h1>
+    <hr>
+    <form action="submit" method="POST">
+        <table>
+            <tr>
+                <th><label for="Nama lengkap">Nama lengkap:</label></th>
+                <td><input type="text" id="Nama lengkap" name="Nama lengkap" required></td>  
+            </tr>
+            <tr>
+                <th><label for="Alamat Rumah">Alamat Rumah:</label></th>
+                <td><input type="Alamat Rumah" id="Alamat Rumah" name="Alamat Rumah" required></td>
+            </tr>
+            <tr>
+                <th><label for="Alamat Kantor">Alamat Kantor:</label></th>
+                <td><input type="Alamat Kantor" id="Alamat Kantor" name="Alamat Kantor" required></td>
+            </tr>
+            <tr>
+                <th><label for="No Handphone">No Handphone:</label></th>
+                <td><input type="No Handphone" id="No Handphone" name="No Handphone" required></td> 
+            </tr>
+            <tr>
+                <th><label for="Password">Password:</label></th>
+                <td><input type="Password" id="Password" name="Password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <p>Hobby Anda (boleh lebih dari satu) :</p>
+                    <input type="checkbox" id="Menyanyi" name="Menyanyi" value="Menyanyi">
+                    <label for="Menyanyi">Menyanyi</label><br>
+                    <input type="checkbox" id="Futsal" name="Futsal" value="Futsal">
+                    <label for="Futsal">Futsal</label><br>
+                    <input type="checkbox" id="Basket" name="Basket" value="Basket">
+                    <label for="Basket">Basket</label><br>
+                    <input type="checkbox" id="Menari" name="Menari" value="Menari">
+                    <label for="Menari">Menari</label><br><br>
+                </td>
+                <tr>
+                    <td colspan="2" style="text-align: left;">
+                        <p>Gender</p>
+                        <input type="radio" id="Laki-laki" name="Jenis Kelamin" value="Laki-laki">
+                        <label for="Laki-laki">Laki-laki</label><br>
+                        <input type="radio" id="Perempuan" name="Jenis Kelamin" value="Perempuan"> 
+                        <label for="Perempuan">Perempuan</label><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: left;">
+                        <input type="submit" value="Kirim">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tr>
+            </tr>
+        </table>
+    </form>
+    <hr>
+
+    <audio controls hidden autoplay loop src="Supernatural (Instrumental).mp3" type="audio/mp3">
+        
+    </audio>
+
+
+   
+</body>
+</html>
